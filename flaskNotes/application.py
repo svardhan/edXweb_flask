@@ -8,7 +8,7 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 #notes = [] # single notes variable shared by everyone.and
-           # note desirable
+           # not desirable
 
 @app.route("/", methods=["GET", "POST"])
 def index():
